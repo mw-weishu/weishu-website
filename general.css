@@ -44,8 +44,25 @@ p:hover{
 a {
   text-decoration: none;
 }
+
+.background-video {
+  opacity: 0.2;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.banner{
+  width: 100%;
+  height: 100%;
+}
   
-.top-text {
+/* .top-text {
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -54,7 +71,7 @@ a {
   margin-left: 20%;
   margin-right: 20%;
   
-}
+} */
 
 .boxes-grid {
   display: grid;
@@ -68,14 +85,14 @@ a {
   justify-content: center;
 }
 
-.middle-text{
+/* .middle-text{
   margin-left: 20%;
   margin-right: 20%;
-}
+} */
 
 .buttons {
-  margin-left: 20%;
-  margin-right: 20%;
+  /* margin-left: 20%;
+  margin-right: 20%; */
   display: flex;
   justify-content: center;
 }
